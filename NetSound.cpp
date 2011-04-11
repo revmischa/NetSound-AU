@@ -208,7 +208,7 @@ OSStatus			NetSound::GetProperty(	AudioUnitPropertyID inID,
 }
 
 UInt32 NetSound::GetBufferSize() {
-    return GetSampleSize() * 10000;
+    return GetSampleSize() * 44100 * 1; // 1 second
 }
 
 UInt32 NetSound::GetSampleSize() {
@@ -243,11 +243,11 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
     socklen_t readAddressSize = sizeof(au->listenAddr);
     sockaddr_in listenAddr = au->listenAddr;
     unsigned int toReadFromNetwork, audioBufReadSize, availDataSize, bufferAdditionSize;
-    SInt8 readBuf[2048];
+    SInt8 readBuf[50000];
     SInt16 sample;
     UInt8 sampleSize = au->GetSampleSize();
     
-    if (au->audioBuffer->BufferedBytes() < 10000 &&
+    if (au->audioBuffer->BufferedBytes() < 44100*sampleSize*2 &&
         au->sock > 0 && au->audioBuffer->BufferedBytes() < au->GetBufferSize()) {
         
         // read at most either nSampleFrames worth of samples or the max size of our buffer
@@ -292,7 +292,7 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
             
             // get nSampleFrames or buffer max of samples from the buffer
             // how many sample frames do we have left to read?
-            audioBufReadSize = MIN(nSampleFrames, sizeof(readBuf));
+            audioBufReadSize = MIN(nSampleFrames * sampleSize, sizeof(readBuf));
             
             // replace them with data we have received from the network
             au->audioBuffer->GetData(readBuf, audioBufReadSize);
@@ -300,8 +300,10 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
             // actual number of samples we have is in audioBufReadSize
             for (SInt8 *networkSamplePtr = readBuf; networkSamplePtr < (readBuf + audioBufReadSize); networkSamplePtr += sampleSize) {
                 sample = ntohs(*networkSamplePtr);
+                //printf("%.4X ", sample);
                 *destP = (Float32)(sample) / (Float32)32767;
                 //printf("network sample @ %X: %d, destP: %f\n", networkSamplePtr, sample, *destP);
+                
                 destP += inNumChannels; // ??
                 nSampleFrames--;
                 //printf("nSampleFrames W: %d\n", nSampleFrames);
