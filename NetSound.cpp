@@ -239,7 +239,7 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
     const Float32 *sourceP = inSourceP;
     Float32 *destP = inDestP;
     Float32 gain = GetParameter( kParam_One );
-    ssize_t read;
+    ssize_t readBytes;
     socklen_t readAddressSize = sizeof(au->listenAddr);
     sockaddr_in listenAddr = au->listenAddr;
     unsigned int toReadFromNetwork, audioBufReadSize, availDataSize, bufferAdditionSize;
@@ -249,22 +249,24 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
     
     if (au->audioBuffer->BufferedBytes() < 44100*sampleSize*2 &&
         au->sock > 0 && au->audioBuffer->BufferedBytes() < au->GetBufferSize()) {
-        
-        // read at most either nSampleFrames worth of samples or the max size of our buffer
-        toReadFromNetwork = MIN(nSampleFrames * sampleSize, sizeof(readBuf));
+        // fill our buffer    
+        toReadFromNetwork = MIN(au->GetBufferSize() - au->audioBuffer->BufferedBytes(), sizeof(readBuf));
         
         // buffer getting low, do a read from the network
-        read = recvfrom(au->sock, readBuf, toReadFromNetwork, 0, (sockaddr *)&listenAddr, &readAddressSize);
-        if (read > 0) {
-            //printf("Read %d bytes! inNumChannels=%d\n", (int)read, inNumChannels);
+        //read = recvfrom(au->sock, readBuf, toReadFromNetwork, 0, (sockaddr *)&listenAddr, &readAddressSize);
+        readBytes = read(au->sock, readBuf, toReadFromNetwork);
+        if (readBytes > 0) {
+            printf("Read %d bytes! inNumChannels=%d\n", (int)readBytes, inNumChannels);
             
             // got sound
-            bufferAdditionSize = read;
+            bufferAdditionSize = readBytes;
             au->audioBuffer->AddData(readBuf, bufferAdditionSize);
             
-            if (bufferAdditionSize < (unsigned int)read) {
+            if (bufferAdditionSize < (unsigned int)readBytes) {
                 // failed to add some data
-                //fprintf(stderr, "NetSound: bufferAdditionSize < read\n");
+                fprintf(stderr, "NetSound: bufferAdditionSize < read, dropped %d bytes\n", readBytes - bufferAdditionSize);
+                // probably cause we got to the end of the ring buffer. need to add the
+                // rest of the data to the front of it
             }
         } else {
             if (errno != EAGAIN) {
@@ -273,6 +275,8 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
             }
         }
     }
+    
+    printf("Channels=%d, Bytes in buffer: %u, ableton wants: %u\n", inNumChannels, au->audioBuffer->BufferedBytes(), nSampleFrames * au->GetSampleSize());
     
     while (nSampleFrames-- > 0) {
         Float32 inputSample = *sourceP;
@@ -290,16 +294,13 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
         if (availDataSize > 0) {
             //printf("Got %u bytes to process for %u sample frames\n", availDataSize, nSampleFrames);
             
-            // get nSampleFrames or buffer max of samples from the buffer
-            // how many sample frames do we have left to read?
-            audioBufReadSize = MIN(nSampleFrames * sampleSize, sizeof(readBuf));
-            
-            // replace them with data we have received from the network
+            // read samples into readBuf
+            audioBufReadSize = nSampleFrames * sampleSize;
             au->audioBuffer->GetData(readBuf, audioBufReadSize);
             
-            // actual number of samples we have is in audioBufReadSize
-            for (SInt8 *networkSamplePtr = readBuf; networkSamplePtr < (readBuf + audioBufReadSize); networkSamplePtr += sampleSize) {
-                sample = ntohs(*networkSamplePtr);
+            // replace them with data we have received from the network
+            for (SInt8 *readDataPtr = readBuf; readDataPtr < (readBuf + audioBufReadSize); readDataPtr += sampleSize) {
+                sample = ntohs(*readDataPtr);
                 //printf("%.4X ", sample);
                 *destP = (Float32)(sample) / (Float32)32767;
                 //printf("network sample @ %X: %d, destP: %f\n", networkSamplePtr, sample, *destP);
@@ -312,6 +313,8 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
             // TODO: read rest of data from ring buffer if audioBufReadSize < availDataSize
             // (happens if we reach the end of the buffer and need to read from the beginning)
         } else {
+            outputSample = (random() % 32767) / 32767.0;
+            
             *destP = outputSample;
             destP += inNumChannels;
             
