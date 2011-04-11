@@ -208,7 +208,7 @@ OSStatus			NetSound::GetProperty(	AudioUnitPropertyID inID,
 }
 
 UInt32 NetSound::GetBufferSize() {
-    return GetSampleSize() * 44100 * 1; // 1 second
+    return GetSampleSize() * 44100 * 2;
 }
 
 UInt32 NetSound::GetSampleSize() {
@@ -247,8 +247,9 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
     SInt16 sample;
     UInt8 sampleSize = au->GetSampleSize();
     
-    if (au->audioBuffer->BufferedBytes() < 44100*sampleSize*2 &&
-        au->sock > 0 && au->audioBuffer->BufferedBytes() < au->GetBufferSize()) {
+    if (au->sock > 0 && au->audioBuffer->BufferedBytes() < au->GetBufferSize() - 1000) {
+        //while (au->audioBuffer->BufferedBytes() < au->GetBufferSize() - 1000) {
+        
         // fill our buffer    
         toReadFromNetwork = MIN(au->GetBufferSize() - au->audioBuffer->BufferedBytes(), sizeof(readBuf));
         
@@ -274,6 +275,8 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
                 perror("NetSound: error reading from socket");
             }
         }
+            
+        //}
     }
     
     printf("Channels=%d, Bytes in buffer: %u, ableton wants: %u\n", inNumChannels, au->audioBuffer->BufferedBytes(), nSampleFrames * au->GetSampleSize());
