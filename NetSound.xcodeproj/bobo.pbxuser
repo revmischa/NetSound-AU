@@ -13,7 +13,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					896,
+					1087,
 					20,
 					48,
 					43,
@@ -275,6 +275,43 @@
 			C318162C1352E3DF00A61D45 /* PBXTextBookmark */ = C318162C1352E3DF00A61D45 /* PBXTextBookmark */;
 			C318162D1352E44E00A61D45 /* PBXTextBookmark */ = C318162D1352E44E00A61D45 /* PBXTextBookmark */;
 			C318162E1352E44E00A61D45 /* PBXTextBookmark */ = C318162E1352E44E00A61D45 /* PBXTextBookmark */;
+			C31816311352E48600A61D45 /* PBXTextBookmark */ = C31816311352E48600A61D45 /* PBXTextBookmark */;
+			C31816321352E48600A61D45 /* PBXTextBookmark */ = C31816321352E48600A61D45 /* PBXTextBookmark */;
+			C31816331352E4B200A61D45 /* PBXTextBookmark */ = C31816331352E4B200A61D45 /* PBXTextBookmark */;
+			C31816341352E4B200A61D45 /* PBXTextBookmark */ = C31816341352E4B200A61D45 /* PBXTextBookmark */;
+			C31816351352E4CE00A61D45 /* PBXTextBookmark */ = C31816351352E4CE00A61D45 /* PBXTextBookmark */;
+			C31816361352E4CE00A61D45 /* PBXTextBookmark */ = C31816361352E4CE00A61D45 /* PBXTextBookmark */;
+			C318163D1352E64500A61D45 /* PBXTextBookmark */ = C318163D1352E64500A61D45 /* PBXTextBookmark */;
+			C318163E1352E64500A61D45 /* PBXTextBookmark */ = C318163E1352E64500A61D45 /* PBXTextBookmark */;
+			C318163F1352E66B00A61D45 /* PBXTextBookmark */ = C318163F1352E66B00A61D45 /* PBXTextBookmark */;
+			C31816401352E66B00A61D45 /* PBXTextBookmark */ = C31816401352E66B00A61D45 /* PBXTextBookmark */;
+			C31816431352E84400A61D45 /* PBXTextBookmark */ = C31816431352E84400A61D45 /* PBXTextBookmark */;
+			C31816441352E84400A61D45 /* PBXTextBookmark */ = C31816441352E84400A61D45 /* PBXTextBookmark */;
+			C31816551352E8EB00A61D45 /* XCBuildMessageTextBookmark */ = C31816551352E8EB00A61D45 /* XCBuildMessageTextBookmark */;
+			C31816561352E8EB00A61D45 /* PBXTextBookmark */ = C31816561352E8EB00A61D45 /* PBXTextBookmark */;
+			C31816571352E8EC00A61D45 /* XCBuildMessageTextBookmark */ = C31816571352E8EC00A61D45 /* XCBuildMessageTextBookmark */;
+			C31816581352E8EC00A61D45 /* PBXTextBookmark */ = C31816581352E8EC00A61D45 /* PBXTextBookmark */;
+			C31816591352E8EC00A61D45 /* PBXTextBookmark */ = C31816591352E8EC00A61D45 /* PBXTextBookmark */;
+			C31816601352E99A00A61D45 /* XCBuildMessageTextBookmark */ = C31816601352E99A00A61D45 /* XCBuildMessageTextBookmark */;
+			C31816611352E99A00A61D45 /* PBXTextBookmark */ = C31816611352E99A00A61D45 /* PBXTextBookmark */;
+			C31816621352E99C00A61D45 /* PBXTextBookmark */ = C31816621352E99C00A61D45 /* PBXTextBookmark */;
+			C31816631352E99C00A61D45 /* PBXTextBookmark */ = C31816631352E99C00A61D45 /* PBXTextBookmark */;
+			C31816661352E9FA00A61D45 /* PBXTextBookmark */ = C31816661352E9FA00A61D45 /* PBXTextBookmark */;
+			C31816671352E9FA00A61D45 /* PBXTextBookmark */ = C31816671352E9FA00A61D45 /* PBXTextBookmark */;
+			C318166A1352EA3600A61D45 /* PBXTextBookmark */ = C318166A1352EA3600A61D45 /* PBXTextBookmark */;
+			C318166B1352EA3600A61D45 /* PBXTextBookmark */ = C318166B1352EA3600A61D45 /* PBXTextBookmark */;
+			C318166C13540F9F00A61D45 /* PBXTextBookmark */ = C318166C13540F9F00A61D45 /* PBXTextBookmark */;
+			C318166D13540F9F00A61D45 /* PBXTextBookmark */ = C318166D13540F9F00A61D45 /* PBXTextBookmark */;
+			C31816741354107500A61D45 /* PBXTextBookmark */ = C31816741354107500A61D45 /* PBXTextBookmark */;
+			C31816751354107500A61D45 /* PBXTextBookmark */ = C31816751354107500A61D45 /* PBXTextBookmark */;
+			C31816781354117100A61D45 /* PBXTextBookmark */ = C31816781354117100A61D45 /* PBXTextBookmark */;
+			C31816791354117100A61D45 /* PBXTextBookmark */ = C31816791354117100A61D45 /* PBXTextBookmark */;
+			C318167E135414CC00A61D45 /* PBXTextBookmark */ = C318167E135414CC00A61D45 /* PBXTextBookmark */;
+			C318167F135414CC00A61D45 /* PBXTextBookmark */ = C318167F135414CC00A61D45 /* PBXTextBookmark */;
+			C3181684135415F100A61D45 /* PBXTextBookmark */ = C3181684135415F100A61D45 /* PBXTextBookmark */;
+			C3181685135415F100A61D45 /* PBXTextBookmark */ = C3181685135415F100A61D45 /* PBXTextBookmark */;
+			C3181688135416FA00A61D45 /* PBXTextBookmark */ = C3181688135416FA00A61D45 /* PBXTextBookmark */;
+			C3181689135416FA00A61D45 /* PBXTextBookmark */ = C3181689135416FA00A61D45 /* PBXTextBookmark */;
 			C3B92E221352908400A20219 = C3B92E221352908400A20219 /* PBXBookmark */;
 			C3B92E231352908400A20219 = C3B92E231352908400A20219 /* PBXTextBookmark */;
 			C3B92E281352934A00A20219 = C3B92E281352934A00A20219 /* PBXTextBookmark */;
@@ -322,9 +359,9 @@
 	};
 	8BA05A660720730100365D66 /* NetSound.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1090, 4433}}";
-			sepNavSelRange = "{11087, 0}";
-			sepNavVisRange = "{9139, 2588}";
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 4550}}";
+			sepNavSelRange = "{14154, 0}";
+			sepNavVisRange = "{12287, 2471}";
 			sepNavWindowFrame = "{{421, 193}, {1252, 878}}";
 		};
 	};
@@ -403,7 +440,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 293;
+		rLoc = 305;
 		rType = 1;
 	};
 	C31814211352A1D600A61D45 /* PBXTextBookmark */ = {
@@ -411,7 +448,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 263";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 1661;
 		vrLoc = 8407;
@@ -485,7 +522,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 262";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2260;
 		vrLoc = 8120;
@@ -496,7 +533,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 293;
+		rLoc = 305;
 		rType = 1;
 	};
 	C31814521352A33000A61D45 /* PBXTextBookmark */ = {
@@ -554,7 +591,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 279";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2469;
 		vrLoc = 8503;
@@ -591,7 +628,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 277";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2586;
 		vrLoc = 8503;
@@ -621,7 +658,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 290";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2047;
 		vrLoc = 9258;
@@ -651,7 +688,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 278";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2044;
 		vrLoc = 9305;
@@ -671,7 +708,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 280";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2168;
 		vrLoc = 9151;
@@ -691,7 +728,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 244";
 		rLen = 0;
-		rLoc = 9599;
+		rLoc = 9571;
 		rType = 0;
 		vrLen = 2189;
 		vrLoc = 9151;
@@ -711,7 +748,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 288";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2259;
 		vrLoc = 9258;
@@ -731,7 +768,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 288";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2433;
 		vrLoc = 9151;
@@ -751,7 +788,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 287";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2311;
 		vrLoc = 9305;
@@ -780,8 +817,8 @@
 		isa = PBXTextBookmark;
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 228";
-		rLen = 4729;
-		rLoc = 8565;
+		rLen = 6191;
+		rLoc = 8567;
 		rType = 0;
 		vrLen = 2330;
 		vrLoc = 9301;
@@ -801,7 +838,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 254";
 		rLen = 0;
-		rLoc = 11651;
+		rLoc = 12322;
 		rType = 0;
 		vrLen = 2357;
 		vrLoc = 9301;
@@ -821,7 +858,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 256";
 		rLen = 0;
-		rLoc = 11736;
+		rLoc = 12407;
 		rType = 0;
 		vrLen = 2359;
 		vrLoc = 9254;
@@ -841,7 +878,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 251";
 		rLen = 0;
-		rLoc = 11413;
+		rLoc = 12084;
 		rType = 0;
 		vrLen = 2365;
 		vrLoc = 9254;
@@ -861,7 +898,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 293";
 		rLen = 0;
-		rLoc = 13289;
+		rLoc = 14753;
 		rType = 0;
 		vrLen = 2380;
 		vrLoc = 9254;
@@ -880,8 +917,8 @@
 		isa = PBXTextBookmark;
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 231";
-		rLen = 4504;
-		rLoc = 8788;
+		rLen = 5966;
+		rLoc = 8790;
 		rType = 0;
 		vrLen = 2898;
 		vrLoc = 8596;
@@ -901,7 +938,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 253";
 		rLen = 0;
-		rLoc = 11519;
+		rLoc = 12190;
 		rType = 0;
 		vrLen = 2386;
 		vrLoc = 9254;
@@ -921,7 +958,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 274";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2393;
 		vrLoc = 9254;
@@ -941,7 +978,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 286";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2456;
 		vrLoc = 9254;
@@ -961,7 +998,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 264";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2456;
 		vrLoc = 9254;
@@ -981,7 +1018,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 288";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2479;
 		vrLoc = 9254;
@@ -1000,8 +1037,8 @@
 		isa = PBXTextBookmark;
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 231";
-		rLen = 4506;
-		rLoc = 8788;
+		rLen = 5968;
+		rLoc = 8790;
 		rType = 0;
 		vrLen = 2371;
 		vrLoc = 9420;
@@ -1021,7 +1058,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 291";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2371;
 		vrLoc = 9420;
@@ -1041,7 +1078,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 296";
 		rLen = 0;
-		rLoc = 13284;
+		rLoc = 14748;
 		rType = 0;
 		vrLen = 2371;
 		vrLoc = 9420;
@@ -1061,7 +1098,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 287";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2394;
 		vrLoc = 9420;
@@ -1081,7 +1118,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 287";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2394;
 		vrLoc = 9420;
@@ -1101,7 +1138,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 289";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2394;
 		vrLoc = 9420;
@@ -1121,7 +1158,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 287";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2387;
 		vrLoc = 9420;
@@ -1141,7 +1178,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 287";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2387;
 		vrLoc = 9420;
@@ -1161,7 +1198,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 286";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2383;
 		vrLoc = 9420;
@@ -1181,7 +1218,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 263";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2666;
 		vrLoc = 8195;
@@ -1192,7 +1229,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 293;
+		rLoc = 305;
 		rType = 1;
 	};
 	C31814E21352B0D600A61D45 /* PBXTextBookmark */ = {
@@ -1200,7 +1237,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 273";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 1619;
 		vrLoc = 10263;
@@ -1260,7 +1297,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 304";
 		rLen = 0;
-		rLoc = 13284;
+		rLoc = 14748;
 		rType = 0;
 		vrLen = 2597;
 		vrLoc = 9549;
@@ -1280,7 +1317,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 305";
 		rLen = 0;
-		rLoc = 13284;
+		rLoc = 14748;
 		rType = 0;
 		vrLen = 2569;
 		vrLoc = 9656;
@@ -1300,7 +1337,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 277";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2682;
 		vrLoc = 9454;
@@ -1320,7 +1357,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 211";
 		rLen = 0;
-		rLoc = 8188;
+		rLoc = 8190;
 		rType = 0;
 		vrLen = 1791;
 		vrLoc = 7109;
@@ -1340,7 +1377,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 211";
 		rLen = 0;
-		rLoc = 8188;
+		rLoc = 8190;
 		rType = 0;
 		vrLen = 1791;
 		vrLoc = 7109;
@@ -1410,7 +1447,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 262";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2507;
 		vrLoc = 9734;
@@ -1430,7 +1467,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 294";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2719;
 		vrLoc = 9623;
@@ -1450,7 +1487,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 293";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2728;
 		vrLoc = 9623;
@@ -1470,7 +1507,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 300";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2832;
 		vrLoc = 9623;
@@ -1490,7 +1527,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 293";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2836;
 		vrLoc = 9623;
@@ -1510,7 +1547,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 292";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2818;
 		vrLoc = 9671;
@@ -1530,7 +1567,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 297";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2829;
 		vrLoc = 9671;
@@ -1550,7 +1587,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 283";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2863;
 		vrLoc = 9671;
@@ -1570,7 +1607,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 289";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2997;
 		vrLoc = 9616;
@@ -1590,7 +1627,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 297";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2942;
 		vrLoc = 9858;
@@ -1610,7 +1647,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 300";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2635;
 		vrLoc = 10238;
@@ -1630,7 +1667,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 286";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2640;
 		vrLoc = 10238;
@@ -1650,7 +1687,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 299";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2793;
 		vrLoc = 10152;
@@ -1670,7 +1707,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 318";
 		rLen = 0;
-		rLoc = 13284;
+		rLoc = 14748;
 		rType = 0;
 		vrLen = 2547;
 		vrLoc = 10576;
@@ -1690,7 +1727,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 301";
 		rLen = 0;
-		rLoc = 11808;
+		rLoc = 12479;
 		rType = 0;
 		vrLen = 2584;
 		vrLoc = 10576;
@@ -1710,7 +1747,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 266";
 		rLen = 0;
-		rLoc = 11799;
+		rLoc = 12470;
 		rType = 0;
 		vrLen = 2990;
 		vrLoc = 10152;
@@ -1730,7 +1767,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 314";
 		rLen = 0;
-		rLoc = 13212;
+		rLoc = 14676;
 		rType = 0;
 		vrLen = 2414;
 		vrLoc = 10434;
@@ -1778,7 +1815,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 259;
+		rLoc = 258;
 		rType = 1;
 	};
 	C318156A1352CB1C00A61D45 /* PBXTextBookmark */ = {
@@ -1786,7 +1823,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 258";
 		rLen = 0;
-		rLoc = 10258;
+		rLoc = 10243;
 		rType = 0;
 		vrLen = 1668;
 		vrLoc = 9593;
@@ -1796,7 +1833,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 214";
 		rLen = 0;
-		rLoc = 8199;
+		rLoc = 8201;
 		rType = 0;
 		vrLen = 1557;
 		vrLoc = 7074;
@@ -1846,7 +1883,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 214";
 		rLen = 0;
-		rLoc = 8199;
+		rLoc = 8201;
 		rType = 0;
 		vrLen = 1557;
 		vrLoc = 7074;
@@ -1856,7 +1893,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 245";
 		rLen = 0;
-		rLoc = 9503;
+		rLoc = 9449;
 		rType = 0;
 		vrLen = 2497;
 		vrLoc = 8293;
@@ -1876,7 +1913,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 267";
 		rLen = 0;
-		rLoc = 10631;
+		rLoc = 10620;
 		rType = 0;
 		vrLen = 2607;
 		vrLoc = 8654;
@@ -1896,7 +1933,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 247";
 		rLen = 0;
-		rLoc = 9607;
+		rLoc = 9592;
 		rType = 0;
 		vrLen = 2371;
 		vrLoc = 9196;
@@ -1916,7 +1953,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 247";
 		rLen = 0;
-		rLoc = 9607;
+		rLoc = 9592;
 		rType = 0;
 		vrLen = 2371;
 		vrLoc = 9196;
@@ -1956,7 +1993,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 247";
 		rLen = 0;
-		rLoc = 9607;
+		rLoc = 9592;
 		rType = 0;
 		vrLen = 2371;
 		vrLoc = 9196;
@@ -1966,7 +2003,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 301";
 		rLen = 0;
-		rLoc = 12314;
+		rLoc = 13977;
 		rType = 0;
 		vrLen = 2424;
 		vrLoc = 10474;
@@ -2018,7 +2055,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 301";
 		rLen = 0;
-		rLoc = 12314;
+		rLoc = 13977;
 		rType = 0;
 		vrLen = 2424;
 		vrLoc = 10474;
@@ -2068,7 +2105,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 301";
 		rLen = 0;
-		rLoc = 12314;
+		rLoc = 13977;
 		rType = 0;
 		vrLen = 2424;
 		vrLoc = 10474;
@@ -2078,7 +2115,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 301";
 		rLen = 0;
-		rLoc = 12314;
+		rLoc = 13977;
 		rType = 0;
 		vrLen = 2424;
 		vrLoc = 10474;
@@ -2098,7 +2135,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 305";
 		rLen = 0;
-		rLoc = 12682;
+		rLoc = 14344;
 		rType = 0;
 		vrLen = 2421;
 		vrLoc = 10517;
@@ -2118,7 +2155,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 303";
 		rLen = 0;
-		rLoc = 12491;
+		rLoc = 14154;
 		rType = 0;
 		vrLen = 2437;
 		vrLoc = 10517;
@@ -2138,7 +2175,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 303";
 		rLen = 0;
-		rLoc = 12491;
+		rLoc = 14154;
 		rType = 0;
 		vrLen = 2437;
 		vrLoc = 10517;
@@ -2158,7 +2195,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 303";
 		rLen = 0;
-		rLoc = 12491;
+		rLoc = 14154;
 		rType = 0;
 		vrLen = 2439;
 		vrLoc = 10517;
@@ -2178,7 +2215,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 302";
 		rLen = 0;
-		rLoc = 12460;
+		rLoc = 14123;
 		rType = 0;
 		vrLen = 2432;
 		vrLoc = 10517;
@@ -2238,7 +2275,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 302";
 		rLen = 0;
-		rLoc = 12460;
+		rLoc = 14123;
 		rType = 0;
 		vrLen = 2335;
 		vrLoc = 10627;
@@ -2258,7 +2295,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 295";
 		rLen = 0;
-		rLoc = 12045;
+		rLoc = 12795;
 		rType = 0;
 		vrLen = 2548;
 		vrLoc = 10418;
@@ -2278,7 +2315,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 211";
 		rLen = 0;
-		rLoc = 8189;
+		rLoc = 8191;
 		rType = 0;
 		vrLen = 1931;
 		vrLoc = 7462;
@@ -2298,7 +2335,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 220";
 		rLen = 0;
-		rLoc = 8294;
+		rLoc = 8296;
 		rType = 0;
 		vrLen = 1931;
 		vrLoc = 7462;
@@ -2318,7 +2355,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 246";
 		rLen = 0;
-		rLoc = 9599;
+		rLoc = 9571;
 		rType = 0;
 		vrLen = 2332;
 		vrLoc = 9258;
@@ -2338,7 +2375,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 250";
 		rLen = 0;
-		rLoc = 9678;
+		rLoc = 9663;
 		rType = 0;
 		vrLen = 2400;
 		vrLoc = 9583;
@@ -2378,7 +2415,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 250";
 		rLen = 0;
-		rLoc = 9678;
+		rLoc = 9663;
 		rType = 0;
 		vrLen = 2400;
 		vrLoc = 9583;
@@ -2388,7 +2425,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 267";
 		rLen = 0;
-		rLoc = 10736;
+		rLoc = 10739;
 		rType = 0;
 		vrLen = 2572;
 		vrLoc = 8867;
@@ -2408,7 +2445,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 316";
 		rLen = 0;
-		rLoc = 13128;
+		rLoc = 14592;
 		rType = 0;
 		vrLen = 2499;
 		vrLoc = 8940;
@@ -2428,7 +2465,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 316";
 		rLen = 0;
-		rLoc = 13128;
+		rLoc = 14592;
 		rType = 0;
 		vrLen = 2499;
 		vrLoc = 8940;
@@ -2448,7 +2485,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 269";
 		rLen = 0;
-		rLoc = 10881;
+		rLoc = 11446;
 		rType = 0;
 		vrLen = 2428;
 		vrLoc = 9212;
@@ -2468,7 +2505,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 296";
 		rLen = 0;
-		rLoc = 12145;
+		rLoc = 13170;
 		rType = 0;
 		vrLen = 2281;
 		vrLoc = 10754;
@@ -2495,7 +2532,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 279";
 		rLen = 0;
-		rLoc = 11183;
+		rLoc = 11888;
 		rType = 0;
 		vrLen = 2724;
 		vrLoc = 9742;
@@ -2515,7 +2552,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 258";
 		rLen = 0;
-		rLoc = 10185;
+		rLoc = 10170;
 		rType = 0;
 		vrLen = 2665;
 		vrLoc = 8800;
@@ -2535,7 +2572,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 254";
 		rLen = 0;
-		rLoc = 9967;
+		rLoc = 9952;
 		rType = 0;
 		vrLen = 2669;
 		vrLoc = 8800;
@@ -2555,7 +2592,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 254";
 		rLen = 0;
-		rLoc = 9967;
+		rLoc = 9952;
 		rType = 0;
 		vrLen = 2671;
 		vrLoc = 8800;
@@ -2575,7 +2612,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 242";
 		rLen = 0;
-		rLoc = 9384;
+		rLoc = 9386;
 		rType = 0;
 		vrLen = 2704;
 		vrLoc = 8800;
@@ -2595,7 +2632,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 252";
 		rLen = 0;
-		rLoc = 9876;
+		rLoc = 9861;
 		rType = 0;
 		vrLen = 2665;
 		vrLoc = 8800;
@@ -2615,7 +2652,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 252";
 		rLen = 0;
-		rLoc = 9876;
+		rLoc = 9861;
 		rType = 0;
 		vrLen = 2665;
 		vrLoc = 8800;
@@ -2635,7 +2672,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 211";
 		rLen = 0;
-		rLoc = 8189;
+		rLoc = 8191;
 		rType = 0;
 		vrLen = 2770;
 		vrLoc = 8427;
@@ -2655,7 +2692,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 211";
 		rLen = 0;
-		rLoc = 8188;
+		rLoc = 8190;
 		rType = 0;
 		vrLen = 2014;
 		vrLoc = 7951;
@@ -2695,7 +2732,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 251";
 		rLen = 0;
-		rLoc = 9849;
+		rLoc = 9834;
 		rType = 0;
 		vrLen = 2758;
 		vrLoc = 8857;
@@ -2715,7 +2752,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 250";
 		rLen = 0;
-		rLoc = 9755;
+		rLoc = 9740;
 		rType = 0;
 		vrLen = 2685;
 		vrLoc = 8299;
@@ -2735,7 +2772,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 261";
 		rLen = 0;
-		rLoc = 10383;
+		rLoc = 10370;
 		rType = 0;
 		vrLen = 2554;
 		vrLoc = 9139;
@@ -2755,7 +2792,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 261";
 		rLen = 0;
-		rLoc = 10383;
+		rLoc = 10370;
 		rType = 0;
 		vrLen = 2701;
 		vrLoc = 8928;
@@ -2775,7 +2812,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 279";
 		rLen = 0;
-		rLoc = 11088;
+		rLoc = 11653;
 		rType = 0;
 		vrLen = 2579;
 		vrLoc = 8928;
@@ -2795,7 +2832,7 @@
 		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
 		name = "NetSound.cpp: 279";
 		rLen = 0;
-		rLoc = 11087;
+		rLoc = 11652;
 		rType = 0;
 		vrLen = 2588;
 		vrLoc = 9139;
@@ -2809,6 +2846,373 @@
 		rType = 0;
 		vrLen = 1747;
 		vrLoc = 362;
+	};
+	C31816311352E48600A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 306";
+		rLen = 0;
+		rLoc = 14109;
+		rType = 0;
+		vrLen = 2390;
+		vrLoc = 10896;
+	};
+	C31816321352E48600A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C31816331352E4B200A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 306";
+		rLen = 5;
+		rLoc = 14104;
+		rType = 0;
+		vrLen = 2395;
+		vrLoc = 10896;
+	};
+	C31816341352E4B200A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C31816351352E4CE00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 311";
+		rLen = 0;
+		rLoc = 14390;
+		rType = 0;
+		vrLen = 2395;
+		vrLoc = 10896;
+	};
+	C31816361352E4CE00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C318163D1352E64500A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 260";
+		rLen = 0;
+		rLoc = 10257;
+		rType = 0;
+		vrLen = 2435;
+		vrLoc = 11322;
+	};
+	C318163E1352E64500A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C318163F1352E66B00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 282";
+		rLen = 0;
+		rLoc = 11792;
+		rType = 0;
+		vrLen = 2584;
+		vrLoc = 10643;
+	};
+	C31816401352E66B00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C31816431352E84400A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 303";
+		rLen = 0;
+		rLoc = 12915;
+		rType = 0;
+		vrLen = 2551;
+		vrLoc = 10600;
+	};
+	C31816441352E84400A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C31816551352E8EB00A61D45 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Unused variable 'readAddressSize'";
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 243;
+		rType = 1;
+	};
+	C31816561352E8EB00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 243";
+		rLen = 45;
+		rLoc = 9388;
+		rType = 0;
+		vrLen = 2248;
+		vrLoc = 8565;
+	};
+	C31816571352E8EC00A61D45 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Format '%d' expects type 'int', but argument 3 has type 'long int'";
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 266;
+		rType = 1;
+	};
+	C31816581352E8EC00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 267";
+		rLen = 0;
+		rLoc = 10602;
+		rType = 0;
+		vrLen = 2570;
+		vrLoc = 9316;
+	};
+	C31816591352E8EC00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C31816601352E99A00A61D45 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Comparison between signed and unsigned integer expressions";
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 291;
+		rType = 1;
+	};
+	C31816611352E99A00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 281";
+		rLen = 0;
+		rLoc = 11678;
+		rType = 0;
+		vrLen = 1676;
+		vrLoc = 10228;
+	};
+	C31816621352E99C00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 283";
+		rLen = 0;
+		rLoc = 11800;
+		rType = 0;
+		vrLen = 2558;
+		vrLoc = 11026;
+	};
+	C31816631352E99C00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C31816661352E9FA00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 283";
+		rLen = 0;
+		rLoc = 11792;
+		rType = 0;
+		vrLen = 2776;
+		vrLoc = 11360;
+	};
+	C31816671352E9FA00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C318166A1352EA3600A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 303";
+		rLen = 0;
+		rLoc = 12850;
+		rType = 0;
+		vrLen = 2377;
+		vrLoc = 10882;
+	};
+	C318166B1352EA3600A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C318166C13540F9F00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 340";
+		rLen = 0;
+		rLoc = 14535;
+		rType = 0;
+		vrLen = 2477;
+		vrLoc = 11853;
+	};
+	C318166D13540F9F00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C31816741354107500A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 273";
+		rLen = 0;
+		rLoc = 11091;
+		rType = 0;
+		vrLen = 2551;
+		vrLoc = 9363;
+	};
+	C31816751354107500A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1747;
+		vrLoc = 362;
+	};
+	C31816781354117100A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 211";
+		rLen = 0;
+		rLoc = 8190;
+		rType = 0;
+		vrLen = 2094;
+		vrLoc = 7732;
+	};
+	C31816791354117100A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 1301;
+	};
+	C318167E135414CC00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 338";
+		rLen = 0;
+		rLoc = 14167;
+		rType = 0;
+		vrLen = 2448;
+		vrLoc = 12287;
+	};
+	C318167F135414CC00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 1301;
+	};
+	C3181684135415F100A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 338";
+		rLen = 0;
+		rLoc = 14143;
+		rType = 0;
+		vrLen = 2446;
+		vrLoc = 12287;
+	};
+	C3181685135415F100A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 1301;
+	};
+	C3181688135416FA00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BA05A660720730100365D66 /* NetSound.cpp */;
+		name = "NetSound.cpp: 338";
+		rLen = 0;
+		rLoc = 14154;
+		rType = 0;
+		vrLen = 2471;
+		vrLoc = 12287;
+	};
+	C3181689135416FA00A61D45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C3B92E601352997000A20219 /* RingBuffer.h */;
+		name = "RingBuffer.h: 68";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 1301;
 	};
 	C3B92E1513528F3A00A20219 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -3147,9 +3551,9 @@
 	};
 	C3B92E601352997000A20219 /* RingBuffer.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1193, 1365}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1193, 1378}}";
 			sepNavSelRange = "{1918, 0}";
-			sepNavVisRange = "{362, 1747}";
+			sepNavVisRange = "{1301, 1411}";
 			sepNavWindowFrame = "{{84, 184}, {1252, 878}}";
 		};
 	};

@@ -7,7 +7,7 @@ TESTING
 * 
 *	Created:	4/10/11
 *	
-*	Copyright:  Copyright © 2011 int80, All Rights Reserved
+*	Copyright:  Copyright Â© 2011 int80, All Rights Reserved
 * 
 *	Disclaimer:	IMPORTANT:  This Apple software is supplied to you by Apple Computer, Inc. ("Apple") in 
 *				consideration of your agreement to the following terms, and your use, installation, modification 
@@ -208,7 +208,7 @@ OSStatus			NetSound::GetProperty(	AudioUnitPropertyID inID,
 }
 
 UInt32 NetSound::GetBufferSize() {
-    return GetSampleSize() * 44100 * 2;
+    return GetSampleSize() * 44100 * 500;
 }
 
 UInt32 NetSound::GetSampleSize() {
@@ -240,10 +240,9 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
     Float32 *destP = inDestP;
     Float32 gain = GetParameter( kParam_One );
     ssize_t readBytes;
-    socklen_t readAddressSize = sizeof(au->listenAddr);
     sockaddr_in listenAddr = au->listenAddr;
-    unsigned int toReadFromNetwork, audioBufReadSize, availDataSize, bufferAdditionSize;
-    SInt8 readBuf[50000];
+    unsigned int toReadFromNetwork, audioBufReadSize, totalReadSize, remaining, availDataSize, bufferAdditionSize;
+    SInt8 readBuf[50000], *readBufPtr;
     SInt16 sample;
     UInt8 sampleSize = au->GetSampleSize();
     
@@ -257,7 +256,7 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
         //read = recvfrom(au->sock, readBuf, toReadFromNetwork, 0, (sockaddr *)&listenAddr, &readAddressSize);
         readBytes = read(au->sock, readBuf, toReadFromNetwork);
         if (readBytes > 0) {
-            printf("Read %d bytes! inNumChannels=%d\n", (int)readBytes, inNumChannels);
+            //printf("Read %d bytes! inNumChannels=%d\n", (int)readBytes, inNumChannels);
             
             // got sound
             bufferAdditionSize = readBytes;
@@ -265,9 +264,19 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
             
             if (bufferAdditionSize < (unsigned int)readBytes) {
                 // failed to add some data
-                fprintf(stderr, "NetSound: bufferAdditionSize < read, dropped %d bytes\n", readBytes - bufferAdditionSize);
+                //fprintf(stderr, "NetSound: bufferAdditionSize < read, dropped %d bytes\n", (unsigned int)readBytes - bufferAdditionSize);
                 // probably cause we got to the end of the ring buffer. need to add the
                 // rest of the data to the front of it
+                readBufPtr = readBuf + bufferAdditionSize;
+                bufferAdditionSize = readBytes - bufferAdditionSize;
+                
+                // add remaining data to front of ring buffer
+                au->audioBuffer->AddData(readBufPtr, bufferAdditionSize);
+                
+                // should have no more data to add now
+                if (bufferAdditionSize) {
+                    fprintf(stderr, "NetSound: still failed to add %d bytes to ring buffer, buffer must be full\n", readBytes - bufferAdditionSize);
+                }
             }
         } else {
             if (errno != EAGAIN) {
@@ -279,7 +288,10 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
         //}
     }
     
-    printf("Channels=%d, Bytes in buffer: %u, ableton wants: %u\n", inNumChannels, au->audioBuffer->BufferedBytes(), nSampleFrames * au->GetSampleSize());
+    unsigned int desiredBytes = nSampleFrames * sampleSize;
+    if (au->audioBuffer->BufferedBytes() < desiredBytes) {
+        printf("Bytes in buffer: %u, ableton wants: %u. Channels=%d\n", au->audioBuffer->BufferedBytes(), desiredBytes, inNumChannels);
+    }
     
     while (nSampleFrames-- > 0) {
         Float32 inputSample = *sourceP;
@@ -297,26 +309,42 @@ void NetSound::NetSoundKernel::Process(	const Float32 	*inSourceP,
         if (availDataSize > 0) {
             //printf("Got %u bytes to process for %u sample frames\n", availDataSize, nSampleFrames);
             
+            // figure out how much sample data we need to read from the buffer
+            totalReadSize = nSampleFrames * sampleSize;
+            if (totalReadSize > sizeof(readBuf)) {
+                // big read size, big problems
+                printf("read size > read buffer size\n");
+                totalReadSize = sizeof(readBuf);
+            }
+            
             // read samples into readBuf
-            audioBufReadSize = nSampleFrames * sampleSize;
+            audioBufReadSize = totalReadSize;
             au->audioBuffer->GetData(readBuf, audioBufReadSize);
+            if (audioBufReadSize < totalReadSize) {
+                // we didn't read as much as we wanted, try again (in case we were at the end of the ring
+                // buffer and need to read from the start now)
+                remaining = totalReadSize - audioBufReadSize;
+                au->audioBuffer->GetData(readBuf + audioBufReadSize, remaining);
+                
+                if (remaining < totalReadSize - audioBufReadSize) {
+                    // no more bytes in buffer... sux
+                    printf("Failed to read desired amount from ring buffer, missing=%d\n", remaining);
+                }
+            }
             
             // replace them with data we have received from the network
             for (SInt8 *readDataPtr = readBuf; readDataPtr < (readBuf + audioBufReadSize); readDataPtr += sampleSize) {
                 sample = ntohs(*readDataPtr);
-                //printf("%.4X ", sample);
-                *destP = (Float32)(sample) / (Float32)32767;
+                //printf("%.2X ", sample);
+                *destP = (Float32)(sample)/ (Float32)32767;
                 //printf("network sample @ %X: %d, destP: %f\n", networkSamplePtr, sample, *destP);
                 
                 destP += inNumChannels; // ??
                 nSampleFrames--;
                 //printf("nSampleFrames W: %d\n", nSampleFrames);
             }
-            
-            // TODO: read rest of data from ring buffer if audioBufReadSize < availDataSize
-            // (happens if we reach the end of the buffer and need to read from the beginning)
         } else {
-            outputSample = (random() % 32767) / 32767.0;
+            //outputSample = (random() % 32767) / 32767.0;
             
             *destP = outputSample;
             destP += inNumChannels;
